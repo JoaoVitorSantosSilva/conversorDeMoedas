@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>Conversor De Moedas - DevClub</title>
+</head>
+<body>
+    <img class="imgMaos" src="./assets/image.gif"/>
+    <main>
+
+        <label>
+         Coverter <b>de</b>
+            <select>
+                <option>R$ Real Brasileiro</option>  
+                <option>Dolar Americano</option>  
+            </select>
+        </label>
+   
+            <label>
+                Converter <b>Para</b>
+                <select class="currency-select">
+                    <option value="dolar">US$ Dolar Americano</option>
+                    <option value="euro">€ Euro</option> 
+                    <option value="libra">£ libra</option>
+                </select>
+            </label>
+           
+            <label>
+               Valor 
+                <input class="input-currency" placeholder=" R$ 0"/>
+            </label>
+
+        <button class="convert-button">Converter</button>
+
+        <section>
+                <img  class="imgBr" src="./assets/img-br.png" alt="Logo-Br"/>
+                <p  class="paragrafoReal">Real</p>
+                <p class="currency-value-to-convert">R$ 0</p>
+                <img class="imgSeta" src="./assets/Vector (1).png" alt="flecha-logo">
+                <img class="currency-img" src="./assets/img-eua.png" alt="Logo-Eua"/>
+                <p id="currency-name" class="paragrafoDolar">Dólar</p>
+                <p  class="currency-value">R$ 0</p>
+         </section>
+    
+    </main>
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>

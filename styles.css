@@ -1,0 +1,309 @@
+* {font-family: "Arimo", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+outline: none;}
+
+body {
+
+    background-color:#8a51FC
+}
+
+.imgMaos {
+
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+main {
+
+    background: #F4F4F4;
+    width: 375px;    
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 44px 24px 23px;
+    margin-bottom: 30px
+}
+
+label{
+
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+  
+}
+
+
+select {
+
+   
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    background: #FFFFFF;
+    appearance: none;
+}
+
+input {
+
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+}
+  
+
+
+button {
+
+    width: 327px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    background-color: #772FD3;
+    margin: 23px auto 36px auto;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    cursor: pointer;
+ 
+}
+
+button:hover {
+
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.3;
+}
+
+section {
+
+    width: 322px;
+    height: 276px;
+    display: block;
+    border-radius: 20px;
+    margin: 23px auto ;
+    border-style: solid;
+    border-width: thin;
+    border-color: #772FD3;
+    padding-top: 25px;
+
+}       
+
+.imgBr {
+
+
+    display: block;
+    width: 44px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.paragrafoReal {
+
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    
+}
+  
+    
+
+
+.currency-value-to-convert {
+   
+    width: 121px;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 13px;
+    color: #555;
+}
+    
+
+
+.imgSeta {
+
+    display: block;
+    width: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 13px;
+    
+}
+
+
+.currency-img {
+
+    display: block;
+    width: 44px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.paragrafoDolar {
+
+    width: 105px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #777777;
+}
+
+
+
+.currency-value{ 
+
+    width: 121px;
+    height: 18px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #555;
+
+
+}
+
+ @media screen and (max-width: 844px) {
+
+    body {
+
+        background: #F4F4F4;
+        
+      }
+
+
+  .imgMaos {
+    display: none;
+    
+  }
+
+  main {
+
+    width: 100%;
+    height: 100%;
+    
+
+  }
+
+  label {
+
+    font-size: 17px;
+
+  }
+
+  button {
+   
+    width: 343px;
+
+
+  }
+
+
+  section {
+    
+    width: 338px;
+    height: 352px;
+    display: block;
+    border-radius: 20px;
+    margin: 23px auto ;
+    border-style: solid;
+    border-width: thin;
+    border-color: #772FD3;
+    padding-top: 25px;
+    
+  }
+
+  .imgBr {
+    display: block;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .paragrafoReal {
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+}
+
+.currency-value-to-convert {
+    width: 121px;
+    height: 18px;
+    font-size: 22px;
+
+ }
+ 
+ .imgSeta {
+    display: block;
+    width: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+ 
+}
+
+.currency-img {
+    display: block;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.paragrafoDolar {
+    width: 105px;
+    height: 18px;
+    font-size: 16px;
+    line-height: 17px;
+    
+
+ }
+
+ .currency-value {
+
+    width: 121px;
+    height: 18px;
+    font-size: 22px
+
+ }
+ }
