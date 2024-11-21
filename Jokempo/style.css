@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url(ilusion.gif );
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+}
+
+.container {
+     padding: 20px;
+     background-color: white;
+     border-radius: 20px;   
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    font-size: 4vw;
+    width: 50vw;
+}
+
+button {
+    padding: 10px;
+    font-size: 80px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+
+
+#rock {
+    background-color: blue;
+
+}
+
+#paper {
+    background-color: yellow;
+
+}
+
+#scissors {
+    background-color: green;
+
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.your-score span {
+    color:  blue;
+}
+
+.machine-score span {
+
+    color: red;
+}
